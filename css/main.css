@@ -1,0 +1,111 @@
+/*change body color*/
+body {
+    background-color: black;
+    background-image: linear-gradient(90deg, #5433FF, #20BDFF, #A5FECB);
+    font-family: Annonymous Pro, monospace;
+}
+
+/*wp title hidden*/
+.wpTitle {
+    visibility: hidden;
+}
+
+/*Styling Navbar Begin*/
+header {
+    background-color: black;
+    width: 100%;
+    height: 100px;
+}
+
+.page-wrap {
+    padding: 2rem 0;
+}
+
+
+header .top-menu li {
+    list-style: none;
+    display: flex;
+}
+
+header .top-menu {
+    display: flex;
+}
+
+header .top-menu li a {
+    padding: 0 12px;
+    color: #fff;
+    text-decoration: none;
+}
+
+header .top-menu li:hover a:hover {
+    color: #5433FF;
+    text-decoration: none;
+}
+
+header .top-menu li:first-child a {
+    padding-left: 0;
+}
+
+header .top-menu li .sub-menu {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+header .top-menu .menu-item-has-children:hover .sub-menu {
+    display: block;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+/*Styling end Navbar*/
+
+/* Styling homepage Begin */
+
+.columnAboutMe {
+    font-size: 17.5px;
+    color: black;
+}
+
+.aboutMeHomePage {
+    color: black;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 25%;
+}
+
+/* begin styling Hello, I'm Dinand */
+.eb-typing-text-lv1njvx .eb-typed-text,
+.eb-typing-text-lv1njvx .eb-typed-view,
+.eb-typing-text-lv1njvx .typed-cursor {
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.eb-typing-text-lv1njvx .eb-typed-text,
+.eb-typing-text-lv1njvx .eb-typed-view,
+.eb-typing-text-lv1njvx {
+    margin-left: 13.25%;
+}
+
+/* end styling Hello, I'm Dinand */
+
+/*end Styling homepage*/
+
+/*Styling timeline Web_Development*/
+
+.cool-timeline-block-61a57a15-cb9e-4b45-b3bf-2c1fd0a50aaf .cool-vertical-timeline-body .story-time p {
+    color: black !important;
+}
+
+.cool-vertical-timeline-body .timeline-content .story-details {
+    color: #fff !important;
+    background-color: #000 !important;
+}
